@@ -100,12 +100,12 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
-  background-color: black;
+  /*background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background-color: #000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;*/ }
   .masthead .intro-body {
     display: table-cell;
     vertical-align: middle; }
@@ -121,6 +121,14 @@ a {
         font-size: 100px; }
       .masthead .intro-body .intro-text {
         font-size: 22px; } }
+
+.black-background {
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .btn-circle {
   font-size: 26px;
@@ -221,7 +229,7 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
   
-video.fullscreen { 
+video { 
   position: fixed;
   top: 50%;
   left: 50%;
@@ -231,4 +239,8 @@ video.fullscreen {
   height: auto;
   z-index: -100;
   transform: translate(-50%, -50%);
+   /*background: url('tok-logo.png') no-repeat;*/
+   /* TO-DO: Change image to valid background image*/
+  background-size: cover;
+  transition: 1s opacity;
 }
