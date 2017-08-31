@@ -120,7 +120,8 @@ a {
       .masthead .intro-body .brand-heading {
         font-size: 100px; }
       .masthead .intro-body .intro-text {
-        font-size: 22px; } }
+		font-weight: bold;
+        font-size: 30px; } }
 
 .black-background {
   background-color: #000;
@@ -128,6 +129,10 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.text-outline {
+	-webkit-text-stroke: 1px black;
 }
 
 .btn-circle {
