@@ -122,6 +122,14 @@ a {
       .masthead .intro-body .intro-text {
 		font-weight: bold;
         font-size: 30px; } }
+		
+.vid-cover {
+	background-color: rgba(255, 255, 255, 0.5);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .black-background {
   background-color: #000;
