@@ -116,6 +116,7 @@
 			<label>Zip</label>
 			<input type="text" placeholder="Enter Zip Code" name="zip" 
 			required>
+			  <input type="submit" value="Submit">
 		</form>
       </div>
     </section>
@@ -176,6 +177,26 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.js"></script>
+	
+	<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+	
+	<script>
+	// Initialize Firebase
+	var config = {
+		apiKey: "AIzaSyCUXyz84jD6vyIn0n7nHETZukY7xQL7KoE",
+		authDomain: "tok-landing-page.firebaseapp.com",
+		databaseURL: "https://tok-landing-page.firebaseio.com",
+		projectId: "tok-landing-page",
+		storageBucket: "",
+		messagingSenderId: "755751627825"
+	};
+	firebase.initializeApp(config);
+	</script>
+	
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
+	
+	    <script src="/__/firebase/init.js"></script>
 
   </body>
 
