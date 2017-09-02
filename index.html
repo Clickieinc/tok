@@ -106,17 +106,17 @@
 		<!-- Signup Form -->
 		<form>
 			<label>Name</label>
-			<input type="text" placeholder="Enter Name" name="name" 
+			<input type="text" placeholder="Enter Name" name="name" id="name"
 			required>
 			
 			<label>Email</label>
-			<input type="text" placeholder="Enter Email" name="email" 
+			<input type="text" placeholder="Enter Email" name="email" id="email"
 			required>
 			
 			<label>Zip</label>
-			<input type="text" placeholder="Enter Zip Code" name="zip" 
+			<input type="text" placeholder="Enter Zip Code" name="zip" id="zip"
 			required>
-			  <input type="submit" value="Submit">
+			  <input type="button" value="Submit" onClick="submitForm()"> 
 		</form>
       </div>
     </section>
@@ -196,7 +196,8 @@
 	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
 	
-	    <script src="/__/firebase/init.js"></script>
+<!-- 	    <script src="https://www.gstatic.com/firebasejs/init.js"></script>
+ -->		<script src="js/form_submit.js"></script>
 
   </body>
 
