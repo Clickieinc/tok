@@ -1,6 +1,7 @@
 cp index.html public
 cp gulpfile.js public
 cp -r vid public
+cp -r img public
 cp -r vendor public
 cp -r scss public
 cp -r js public
