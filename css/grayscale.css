@@ -160,10 +160,15 @@ a {
     color: white;
     outline: none;
     background: rgba(255, 255, 255, 0.1); }
+	
+.sign-up {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
 
 .content-section {
-  padding-top: 150px;
-  padding-bottom: 150px; }
+  padding-top: 100px;
+  padding-bottom: 100px; }
 
 .download-section {
   color: white;

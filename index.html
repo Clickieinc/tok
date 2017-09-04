@@ -87,40 +87,36 @@
 			<p> In cities and states all across these United States, gamers from every background imaginable will gather 
 				and fight for honor, for glory, for the chance to become legend--but most importantly, for the ultimate prize.
 				Do you have what it takes to win, to rule, to achieve your destiny?
-
-			<h3> SIGN UP TODAY </h3>
-
 			</p> 
+
+			<!-- Signup Form -->
+			<section id="download" class="sign-up text-center">
+			<div class="container ">
+						<h3> SIGN UP TODAY </h3>
+			<form>
+				<label>Name</label>
+				<input type="text" placeholder="Enter Name" name="name" id="name"
+				required>
+			
+				<label>Email</label>
+				<input type="text" placeholder="Enter Email" name="email" id="email"
+				required>
+				
+				<br>
+				
+				<label>Zip</label>
+				<input type="text" placeholder="Enter Zip Code" name="zip" id="zip" maxlength="5"
+				required>
+				<input type="button" value="Submit" onClick="submitForm()">
+			</form>
+			</section>
+			</div>
+
           </div>
         </div>
       </div> 
 	  
     </section>
-	
-	<!-- Sign Up Section -->
-    <section id="download" class="download-section content-section text-center">
-      <div class="container">
-        <div class="col-lg-8 mx-auto">
-          <h2>Sign Up</h2>
-        </div>
-		<!-- Signup Form -->
-		<form>
-			<label>Name</label>
-			<input type="text" placeholder="Enter Name" name="name" id="name"
-			required>
-			
-			<label>Email</label>
-			<input type="text" placeholder="Enter Email" name="email" id="email"
-			required>
-			
-			<label>Zip</label>
-			<input type="text" placeholder="Enter Zip Code" name="zip" id="zip" maxlength="5"
-			required>
-			  <input type="button" value="Submit"> <!--onClick="submitForm()"--> 
-		</form>
-      </div>
-    </section>
-
 
     <!-- Map Section -->
     <div id="map"></div>
