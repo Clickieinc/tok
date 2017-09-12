@@ -106,7 +106,19 @@ a {
     .masthead .intro-body .brand-heading {
       font-size: 50px; }
     .masthead .intro-body .intro-text {
+	  font-weight: bold;
       font-size: 24px; }
+  /* Media rule for small screens */
+  @media (max-width: 375px) {
+	   .masthead .intro-body {
+    display: table-cell;
+    vertical-align: middle; }
+    .masthead .intro-body .brand-heading {
+      font-size: 30px; }
+    .masthead .intro-body .intro-text {
+	  font-weight: bold;
+      font-size: 15px; }
+  }
   @media (min-width: 768px) {
     .masthead {
       height: 100%;
