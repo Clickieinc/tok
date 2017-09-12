@@ -107,7 +107,7 @@ a {
       font-size: 50px; }
     .masthead .intro-body .intro-text {
 	  font-weight: bold;
-      font-size: 24px; }
+      font-size: 25px; }
   /* Media rule for small screens */
   @media (max-width: 375px) {
 	   .masthead .intro-body {
